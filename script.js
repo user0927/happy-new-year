@@ -134,4 +134,4 @@ class Snowflake {
       timer=setInterval(autoPlay,1);
     }
   
-  window.onload = downTime;
+  // window.onload = downTime;
