@@ -93,8 +93,8 @@ class Snowflake {
   }
   function newyear() {
     document.getElementById('title').innerText = 'Happy Spring Festival';
-    document.getElementById('day').innerText = '春';
-    document.getElementById('hour').innerText = '节';
+    document.getElementById('day').innerText = '新';
+    document.getElementById('hour').innerText = '年';
     document.getElementById('minute').innerText = '快';
     document.getElementById('second').innerText = '乐';
   }
@@ -115,7 +115,7 @@ class Snowflake {
         item = 1;
       }
       console.log(item, 'item');
-      document.body.style.backgroundImage = `url(./image/long01.jpg)`;
+      document.body.style.backgroundImage = `url(long01.jpg)`;
       return item;
       e.stopPropagation(); //取消事件冒泡
     }, 2000);
